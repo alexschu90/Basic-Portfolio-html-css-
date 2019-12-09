@@ -1,0 +1,21 @@
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px; 
+}
+
+#brand {
+    background-color: #4aaaa5;
+    float: left; 
+}
+
+.navOptions {
+    float: right;
+}
+
+section {
+    padding-top: 100px;
+    margin: 0 auto; 
+    width: 960px; 
+}
