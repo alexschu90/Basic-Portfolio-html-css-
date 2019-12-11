@@ -74,10 +74,12 @@ h2 {
 
 img {
     display: inline; 
-    float: left; 
     padding: 10px; 
 }
 
+#proPic {
+    float: left;
+}
 
 .adjust {
     text-align: center; 
@@ -87,8 +89,59 @@ img {
 }
 
 /* Portfolio Page */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 33%;
+    float: left;
+  }
+
+img {
+    z-index: -1;
+    height: 150px;
+    width: 150px; 
+}
+
+.portfolioText {
+    color: white; 
+}
+
+.title {
+    position: absolute;
+    top: 80%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5
+  }
 
 
+.clearfix {
+    overflow: auto;
+  }
+
+/* 
+.row {
+    display: inline;
+}  
+
+section img {
+    width: 150px; 
+    height: 150px;  
+    z-index: -1;
+} */
+
+/* p {
+    width: 150px; 
+    position: relative;
+    margin: 0;    
+} */
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Contact Page */
 
