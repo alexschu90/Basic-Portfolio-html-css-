@@ -1,3 +1,5 @@
+/* overlapping css */
+
 body {
     background-image: url("../images/gray.png");
     color: #777777;
@@ -46,6 +48,18 @@ a {
     color: gray; 
 }
 
+footer {
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 100px; 
+    height: 80px; 
+    width: 100%; 
+    position: fixed;
+    bottom: 0;
+}
+
+/*About Page */
+
 section {
     background-color: #ffffff; 
     padding: 20px;
@@ -65,19 +79,25 @@ img {
 }
 
 
-footer {
-    background-color: #666666;
-    border-top: 10px solid #4aaaa5;
-    margin-top: 100px; 
-    height: 80px; 
-    width: 100%; 
-    position: fixed;
-    bottom: 0;
-}
-
 .adjust {
     text-align: center; 
     position: relative;
     bottom: 0; 
     color: #ffffff; 
+}
+
+/* Portfolio Page */
+
+
+
+/* Contact Page */
+
+.inputLength {
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+textarea {
+    width: 100%; 
+    margin-bottom: 10px; 
 }
